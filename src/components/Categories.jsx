@@ -1,3 +1,6 @@
+// Categories.jsx
+import React from "react";
+
 const Categories = ({ categories, filterItems }) => {
   return (
     <div className="btn-container">
@@ -18,3 +21,5 @@ const Categories = ({ categories, filterItems }) => {
     </div>
   );
 };
+
+export default Categories;
